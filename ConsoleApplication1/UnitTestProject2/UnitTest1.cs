@@ -15,7 +15,7 @@ namespace UnitTestProject2
 
             int[] Arr2 = new int[] { 1, 2, 3, 5 };
             bool result1 = Program.IsContain5(Arr2);
-            Assert.AreEqual(false, result0);
+            Assert.AreEqual(true, result0);
         }
     }
 }
